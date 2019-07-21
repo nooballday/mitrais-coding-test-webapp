@@ -23,12 +23,4 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
-.main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  margin: 1vh;
-}
 </style>

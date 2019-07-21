@@ -270,9 +270,14 @@ export default {
 .m-user-register {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.m-user-register-form {
+  margin: 3vh auto;
   width: 30vw;
 }
+
 .r-btn-register {
   margin-top: 30px;
 }
@@ -306,7 +311,7 @@ export default {
 }
 
 @media screen and (max-width: 720px) {
-  .m-user-register {
+  .m-user-register-form {
     width: 95vw;
   }
 }
